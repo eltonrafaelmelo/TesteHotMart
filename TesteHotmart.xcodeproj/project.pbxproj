@@ -10,12 +10,15 @@
 		041D8C1B063EDE1EA41DD762 /* Pods_TesteHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A821E6A5B6263FC003F52F74 /* Pods_TesteHotmart.framework */; };
 		221BEBF6FED8573BF979C2AF /* Pods_TesteHotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4E5B8FDE4DCA04F45D3FE3 /* Pods_TesteHotmartTests.framework */; };
 		486847B0EDB36CB800D47261 /* Pods_TesteHotmartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D5B02293E30B95BA5B33 /* Pods_TesteHotmartUITests.framework */; };
+		B14B16771E3D6D9800598ECE /* TabBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B16761E3D6D9800598ECE /* TabBarMenuViewController.swift */; };
 		B16BC0111E3D1E8600C5F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */; };
 		B16BC0181E3D1E8600C5F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BC0161E3D1E8600C5F02E /* Main.storyboard */; };
 		B16BC01A1E3D1E8600C5F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16BC0191E3D1E8600C5F02E /* Assets.xcassets */; };
 		B16BC01D1E3D1E8600C5F02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BC01B1E3D1E8600C5F02E /* LaunchScreen.storyboard */; };
 		B16BC0281E3D1E8600C5F02E /* TesteHotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BC0271E3D1E8600C5F02E /* TesteHotmartTests.swift */; };
 		B16BC0331E3D1E8600C5F02E /* TesteHotmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BC0321E3D1E8600C5F02E /* TesteHotmartUITests.swift */; };
+		B19D22521E3D2E1800169058 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D22511E3D2E1800169058 /* TableViewController.swift */; };
+		B19D22541E3D2EEC00169058 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D22531E3D2EEC00169058 /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 		32102FEF83C4323850EA5CE4 /* Pods-TesteHotmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmart/Pods-TesteHotmart.release.xcconfig"; sourceTree = "<group>"; };
 		7119247544D8106725C6389A /* Pods-TesteHotmartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartUITests/Pods-TesteHotmartUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A821E6A5B6263FC003F52F74 /* Pods_TesteHotmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteHotmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14B16761E3D6D9800598ECE /* TabBarMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarMenuViewController.swift; sourceTree = "<group>"; };
 		B16BC00D1E3D1E8600C5F02E /* TesteHotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteHotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B16BC0171E3D1E8600C5F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,10 @@
 		B16BC02E1E3D1E8600C5F02E /* TesteHotmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteHotmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16BC0321E3D1E8600C5F02E /* TesteHotmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteHotmartUITests.swift; sourceTree = "<group>"; };
 		B16BC0341E3D1E8600C5F02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19D22511E3D2E1800169058 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B19D22531E3D2EEC00169058 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Storyboard-Swift.h"; sourceTree = SOURCE_ROOT; };
+		B1D642B51E3D5FDE008A2729 /* TesteHotmart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesteHotmart-Bridging-Header.h"; sourceTree = "<group>"; };
 		B70814BF7B33554A202A3A9B /* Pods-TesteHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartTests/Pods-TesteHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4E5B8FDE4DCA04F45D3FE3 /* Pods_TesteHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3127154BF62758FD4734615 /* Pods-TesteHotmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartUITests/Pods-TesteHotmartUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +143,9 @@
 		B16BC00F1E3D1E8600C5F02E /* TesteHotmart */ = {
 			isa = PBXGroup;
 			children = (
+				B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */,
+				B19D22501E3D2DF500169058 /* TableView */,
+				B19D224F1E3D239600169058 /* ViewControllers */,
 				B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */,
 				B16BC0161E3D1E8600C5F02E /* Main.storyboard */,
 				B16BC0191E3D1E8600C5F02E /* Assets.xcassets */,
@@ -160,6 +171,24 @@
 				B16BC0341E3D1E8600C5F02E /* Info.plist */,
 			);
 			path = TesteHotmartUITests;
+			sourceTree = "<group>";
+		};
+		B19D224F1E3D239600169058 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B19D22531E3D2EEC00169058 /* DashboardViewController.swift */,
+				B14B16761E3D6D9800598ECE /* TabBarMenuViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B19D22501E3D2DF500169058 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B19D22511E3D2E1800169058 /* TableViewController.swift */,
+				B1D642B51E3D5FDE008A2729 /* TesteHotmart-Bridging-Header.h */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +268,7 @@
 				TargetAttributes = {
 					B16BC00C1E3D1E8500C5F02E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					B16BC0221E3D1E8600C5F02E = {
@@ -444,6 +474,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16BC0111E3D1E8600C5F02E /* AppDelegate.swift in Sources */,
+				B14B16771E3D6D9800598ECE /* TabBarMenuViewController.swift in Sources */,
+				B19D22541E3D2EEC00169058 /* DashboardViewController.swift in Sources */,
+				B19D22521E3D2E1800169058 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,12 +629,15 @@
 			baseConfigurationReference = E9DB5D939DC521A31A2F5D55 /* Pods-TesteHotmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TesteHotmart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.TesteHotmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TesteHotmart/TesteHotmart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -611,12 +647,14 @@
 			baseConfigurationReference = 32102FEF83C4323850EA5CE4 /* Pods-TesteHotmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TesteHotmart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.TesteHotmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TesteHotmart/TesteHotmart-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
