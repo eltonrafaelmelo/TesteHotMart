@@ -11,6 +11,10 @@
 		221BEBF6FED8573BF979C2AF /* Pods_TesteHotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4E5B8FDE4DCA04F45D3FE3 /* Pods_TesteHotmartTests.framework */; };
 		486847B0EDB36CB800D47261 /* Pods_TesteHotmartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D5B02293E30B95BA5B33 /* Pods_TesteHotmartUITests.framework */; };
 		B14B16771E3D6D9800598ECE /* TabBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B16761E3D6D9800598ECE /* TabBarMenuViewController.swift */; };
+		B14B167A1E3E7C8300598ECE /* Vendas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B16791E3E7C8300598ECE /* Vendas.swift */; };
+		B14B167D1E3E7D9200598ECE /* MockupVendas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B167C1E3E7D9200598ECE /* MockupVendas.swift */; };
+		B14B167F1E3E878900598ECE /* VendasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B167E1E3E878900598ECE /* VendasViewController.swift */; };
+		B14B16821E3E885D00598ECE /* VendasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B16811E3E885D00598ECE /* VendasTableViewCell.swift */; };
 		B16BC0111E3D1E8600C5F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */; };
 		B16BC0181E3D1E8600C5F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BC0161E3D1E8600C5F02E /* Main.storyboard */; };
 		B16BC01A1E3D1E8600C5F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16BC0191E3D1E8600C5F02E /* Assets.xcassets */; };
@@ -44,6 +48,10 @@
 		7119247544D8106725C6389A /* Pods-TesteHotmartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartUITests/Pods-TesteHotmartUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A821E6A5B6263FC003F52F74 /* Pods_TesteHotmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteHotmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14B16761E3D6D9800598ECE /* TabBarMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarMenuViewController.swift; sourceTree = "<group>"; };
+		B14B16791E3E7C8300598ECE /* Vendas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vendas.swift; sourceTree = "<group>"; };
+		B14B167C1E3E7D9200598ECE /* MockupVendas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockupVendas.swift; sourceTree = "<group>"; };
+		B14B167E1E3E878900598ECE /* VendasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendasViewController.swift; sourceTree = "<group>"; };
+		B14B16811E3E885D00598ECE /* VendasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendasTableViewCell.swift; sourceTree = "<group>"; };
 		B16BC00D1E3D1E8600C5F02E /* TesteHotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteHotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B16BC0171E3D1E8600C5F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +126,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B14B16781E3E7C5600598ECE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B14B16791E3E7C8300598ECE /* Vendas.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B14B167B1E3E7D7F00598ECE /* Mockup */ = {
+			isa = PBXGroup;
+			children = (
+				B14B167C1E3E7D9200598ECE /* MockupVendas.swift */,
+			);
+			name = Mockup;
+			sourceTree = "<group>";
+		};
+		B14B16801E3E884B00598ECE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B14B16811E3E885D00598ECE /* VendasTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		B16BC0041E3D1E8500C5F02E = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +175,9 @@
 		B16BC00F1E3D1E8600C5F02E /* TesteHotmart */ = {
 			isa = PBXGroup;
 			children = (
+				B14B16801E3E884B00598ECE /* Cell */,
+				B14B167B1E3E7D7F00598ECE /* Mockup */,
+				B14B16781E3E7C5600598ECE /* Model */,
 				B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */,
 				B19D22501E3D2DF500169058 /* TableView */,
 				B19D224F1E3D239600169058 /* ViewControllers */,
@@ -178,6 +213,7 @@
 			children = (
 				B19D22531E3D2EEC00169058 /* DashboardViewController.swift */,
 				B14B16761E3D6D9800598ECE /* TabBarMenuViewController.swift */,
+				B14B167E1E3E878900598ECE /* VendasViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -473,8 +509,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14B16821E3E885D00598ECE /* VendasTableViewCell.swift in Sources */,
 				B16BC0111E3D1E8600C5F02E /* AppDelegate.swift in Sources */,
+				B14B167A1E3E7C8300598ECE /* Vendas.swift in Sources */,
 				B14B16771E3D6D9800598ECE /* TabBarMenuViewController.swift in Sources */,
+				B14B167D1E3E7D9200598ECE /* MockupVendas.swift in Sources */,
+				B14B167F1E3E878900598ECE /* VendasViewController.swift in Sources */,
 				B19D22541E3D2EEC00169058 /* DashboardViewController.swift in Sources */,
 				B19D22521E3D2E1800169058 /* TableViewController.swift in Sources */,
 			);

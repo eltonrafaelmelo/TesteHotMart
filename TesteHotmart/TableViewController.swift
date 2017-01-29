@@ -11,14 +11,17 @@ import KYDrawerController
 
 class TableViewController: UITableViewController {
 
+    @IBOutlet weak var photo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        photo.layer.cornerRadius = photo.frame.size.height / 2
+        photo.clipsToBounds = true
+        photo.layer.masksToBounds = true
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        //    _photo.layer.cornerRadius = _photo.frame.size.width / 2;
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -68,5 +71,7 @@ class TableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }

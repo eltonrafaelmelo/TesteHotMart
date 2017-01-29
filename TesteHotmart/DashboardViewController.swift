@@ -22,14 +22,6 @@ class DashboardViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func teste(_ sender: Any) {
-        
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let aVariable = appDelegate.drawerController
-        
-        aVariable?.setDrawerState(KYDrawerController.DrawerState.opened, animated: true)
-    }
-    
     @IBAction func openMenu(_ sender: Any) {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
