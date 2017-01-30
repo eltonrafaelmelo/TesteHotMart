@@ -77,9 +77,18 @@ class TableViewController: UITableViewController {
     // MARK: - Table view data source
     
     func tratandoFonteLabels(){
+        
+        labelDash.text = "ITEM_DASHBORD".localizedWithComment(comment: "dashbord")
+        labelVendas.text = "ITEM_VENDAS".localizedWithComment(comment: "vendas")
+        labelProdutos.text = "ITEM_PRODUTOS".localizedWithComment(comment: "produto")
+        labelAfiliados.text = "ITEM_AFILIADOS".localizedWithComment(comment: "afiliados")
+        labelMensagem.text = "ITEM_MENSAGENS".localizedWithComment(comment: "mensagens")
+        labelNotificacoes.text = "ITEM_NOTIFICACOES".localizedWithComment(comment: "notificações")
+        labelMinhaConta.text = "ITEM_MINHA_CONTA".localizedWithComment(comment: "conta")
+        labelSobre.text = "ITEM_SOBRE".localizedWithComment(comment: "sobre")
+        
         labelNome.font = UtilFontes.fontTextBold(tamanho: 23)
         labelEmail.font = UtilFontes.fontTextRegular(tamanho: 15)
-        
         labelDash.font = UtilFontes.fontTextRegular(tamanho: 15)
         labelVendas.font = UtilFontes.fontTextRegular(tamanho: 15)
         labelProdutos.font = UtilFontes.fontTextRegular(tamanho: 15)

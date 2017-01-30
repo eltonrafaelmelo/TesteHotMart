@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  TesteHotmart
+
+  Created by Elton Melo on 1/30/17.
+  Copyright © 2017 Elton Melo. All rights reserved.
+*/
+//Portugues
+
+//Tela Menu
+"ITEM_DASHBORD"     = "Dashbord";
+"ITEM_VENDAS"       = "Minhas vendas";
+"ITEM_PRODUTOS"     = "Meus Produtos";
+"ITEM_AFILIADOS"    = "Afiliados";
+"ITEM_MENSAGENS"    = "Mensagens";
+"ITEM_NOTIFICACOES" = "Notificações";
+"ITEM_MINHA_CONTA"  = "Minha Conta";
+"ITEM_SOBRE"        = "Sobre o App";
