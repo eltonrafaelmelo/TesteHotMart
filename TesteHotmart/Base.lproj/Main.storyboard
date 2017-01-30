@@ -581,7 +581,7 @@
                                 <state key="normal" title="Button" image="ico_lupa"/>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuU-nS-SxI">
-                                <rect key="frame" x="0.0" y="167" width="375" height="201"/>
+                                <rect key="frame" x="0.0" y="167" width="375" height="208"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mensagens recentes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Et-eQ-7uf">
@@ -600,7 +600,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cgc-T6-0hr">
-                                        <rect key="frame" x="0.0" y="49" width="375" height="152"/>
+                                        <rect key="frame" x="0.0" y="49" width="375" height="160"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <connections>
                                             <segue destination="gtf-eC-iaN" kind="embed" id="j6q-LS-6ct"/>
@@ -610,7 +610,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zMJ-an-Uy7">
-                                <rect key="frame" x="0.0" y="368" width="375" height="299"/>
+                                <rect key="frame" x="0.0" y="376" width="375" height="242"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
                                     <segue destination="rWG-5e-prN" kind="embed" id="WMI-ZL-gdN"/>
@@ -621,7 +621,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="ico_mensagem-1" id="NAs-dk-d5o"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <nil key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -633,19 +632,19 @@
         <scene sceneID="SXQ-E9-wbc">
             <objects>
                 <collectionViewController id="gtf-eC-iaN" customClass="MensagemDashCollectionViewController" customModule="TesteHotmart" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="J67-2i-cY8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="J67-2i-cY8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HjX-1t-Or8">
                             <size key="itemSize" width="80" height="135"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="10" minY="5" maxX="14" maxY="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="5" maxX="14" maxY="5"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MensagemCell" id="5oC-WT-9Ih" customClass="MensagemCollectionViewCell" customModule="TesteHotmart" customModuleProvider="target">
-                                <rect key="frame" x="10" y="11" width="80" height="135"/>
+                                <rect key="frame" x="10" y="13" width="80" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="80" height="135"/>
@@ -701,16 +700,16 @@
             </objects>
             <point key="canvasLocation" x="3052" y="755"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Vendas Dash Table View Controller-->
         <scene sceneID="y2j-MP-OrY">
             <objects>
-                <tableViewController id="rWG-5e-prN" sceneMemberID="viewController">
+                <tableViewController id="rWG-5e-prN" customClass="VendasDashTableViewController" customModule="TesteHotmart" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="SXn-zs-nm0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="299"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="242"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VendasTableViewCell" rowHeight="115" id="eZi-Ht-Qrl" customClass="VendasTableViewCell" customModule="TesteHotmart" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VendasCell" rowHeight="115" id="eZi-Ht-Qrl" customClass="VendasTableViewCell" customModule="TesteHotmart" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="115"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eZi-Ht-Qrl" id="JLk-3Z-Q62">

@@ -30,6 +30,7 @@
 		B19D22521E3D2E1800169058 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D22511E3D2E1800169058 /* TableViewController.swift */; };
 		B19D22541E3D2EEC00169058 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D22531E3D2EEC00169058 /* DashboardViewController.swift */; };
 		B1A7FB291E3F4F430021D8EE /* MensagemDashCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7FB281E3F4F430021D8EE /* MensagemDashCollectionViewController.swift */; };
+		B1A7FB2B1E3F51C90021D8EE /* VendasDashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		B19D22511E3D2E1800169058 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B19D22531E3D2EEC00169058 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		B1A7FB281E3F4F430021D8EE /* MensagemDashCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MensagemDashCollectionViewController.swift; sourceTree = "<group>"; };
+		B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendasDashTableViewController.swift; sourceTree = "<group>"; };
 		B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Storyboard-Swift.h"; sourceTree = SOURCE_ROOT; };
 		B1D642B51E3D5FDE008A2729 /* TesteHotmart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesteHotmart-Bridging-Header.h"; sourceTree = "<group>"; };
 		B70814BF7B33554A202A3A9B /* Pods-TesteHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartTests/Pods-TesteHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			children = (
 				B19D22511E3D2E1800169058 /* TableViewController.swift */,
 				B1D642B51E3D5FDE008A2729 /* TesteHotmart-Bridging-Header.h */,
+				B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				B14B168F1E3EB99400598ECE /* UtilColores.swift in Sources */,
 				B14B16881E3EAE5B00598ECE /* MensagensViewController.swift in Sources */,
 				B14B16861E3EA9BF00598ECE /* MockupMensagens.swift in Sources */,
+				B1A7FB2B1E3F51C90021D8EE /* VendasDashTableViewController.swift in Sources */,
 				B14B167A1E3E7C8300598ECE /* Vendas.swift in Sources */,
 				B14B16771E3D6D9800598ECE /* TabBarMenuViewController.swift in Sources */,
 				B14B167D1E3E7D9200598ECE /* MockupVendas.swift in Sources */,
