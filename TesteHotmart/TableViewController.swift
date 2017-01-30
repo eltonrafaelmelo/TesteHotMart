@@ -34,7 +34,32 @@ class TableViewController: UITableViewController {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let aVariable = appDelegate.drawerController
         
-        aVariable?.setDrawerState(KYDrawerController.DrawerState.closed, animated: true)
+//        aVariable?.setDrawerState(KYDrawerController.DrawerState.closed, animated: true)
+        
+        switch indexPath.row {
+        case 1:
+            appDelegate.abrirTela = "HOME"
+            break
+        case 2:
+            appDelegate.abrirTela = "VENDAS"
+            break
+        case 5:
+            appDelegate.abrirTela = "MENSAGENS"
+            break
+        case 6:
+            appDelegate.abrirTela = "HOME"
+            break
+        default:
+            break
+        }
+        
+        switch indexPath.row {
+        case 1,2,5,6:
+            aVariable?.setDrawerState(KYDrawerController.DrawerState.closed, animated: true)
+            break
+        default:
+            break
+        }
         
     }
 

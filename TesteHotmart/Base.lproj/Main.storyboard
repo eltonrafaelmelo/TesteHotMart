@@ -312,7 +312,7 @@
             </objects>
             <point key="canvasLocation" x="1512" y="-93"/>
         </scene>
-        <!--Item 2-->
+        <!--Mensagens View Controller-->
         <scene sceneID="GuS-MQ-ZJq">
             <objects>
                 <viewController id="6xM-hD-k8z" customClass="MensagensViewController" customModule="TesteHotmart" customModuleProvider="target" sceneMemberID="viewController">
@@ -408,7 +408,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90588235289999997" green="0.67843137249999996" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" image="ico_notificacoes-1" id="iio-N1-uyY"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="ico_notificacoes-1" id="iio-N1-uyY"/>
                     <connections>
                         <outlet property="buttonCount" destination="BI2-wa-Oob" id="cq9-pT-LUG"/>
                         <outlet property="mensagensCollection" destination="s9n-zp-O6p" id="F77-oL-qjM"/>
@@ -418,7 +418,7 @@
             </objects>
             <point key="canvasLocation" x="2332" y="2178.2608695652175"/>
         </scene>
-        <!--Item 1-->
+        <!--Vendas View Controller-->
         <scene sceneID="7Yn-L2-kTm">
             <objects>
                 <viewController id="73S-QK-APn" customClass="VendasViewController" customModule="TesteHotmart" customModuleProvider="target" sceneMemberID="viewController">
@@ -501,7 +501,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.28627450980392155" green="0.50980392156862742" blue="0.77254901960784317" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" image="ico_minhas_vendas-1" id="zRF-uy-Ibe"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="ico_minhas_vendas-1" id="zRF-uy-Ibe"/>
                     <connections>
                         <outlet property="tableViewVendas" destination="nke-ep-82C" id="kPc-16-MDZ"/>
                     </connections>
@@ -530,7 +530,7 @@
             </objects>
             <point key="canvasLocation" x="1511" y="1504"/>
         </scene>
-        <!--Item-->
+        <!--Dashboard View Controller-->
         <scene sceneID="f42-qo-oRW">
             <objects>
                 <viewController storyboardIdentifier="MainController" id="gFr-Kx-FNt" customClass="DashboardViewController" customModule="TesteHotmart" customModuleProvider="target" sceneMemberID="viewController">
@@ -619,7 +619,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.81568627449999997" green="0.30980392159999998" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="ico_mensagem-1" id="NAs-dk-d5o"/>
+                    <tabBarItem key="tabBarItem" title="" image="ico_mensagem-1" id="NAs-dk-d5o"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
