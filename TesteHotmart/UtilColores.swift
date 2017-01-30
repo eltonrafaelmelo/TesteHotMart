@@ -54,6 +54,10 @@ class UtilColores: NSObject {
         return UIColor.colorWithHexString(hexValue: "#919191")
     }
     
+    class func ColorCinzaClaro() -> UIColor {
+        return UIColor.colorWithHexString(hexValue: "#f4f4f4")
+    }
+    
     class func ColorPelaPLNome(letra: String) -> UIColor {
         
         switch letra {

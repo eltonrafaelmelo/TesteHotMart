@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarMenuViewController") as! TabBarMenuViewController
 
         let drawerViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tableViewController") as! TableViewController
+        
+//        CGSize result = [[UIScreen mainScreen] bounds].size;
+        var bounds = UIScreen.mainScreen.bounds
+        var width = bounds.size.width
 
         drawerController     = KYDrawerController(drawerDirection: KYDrawerController.DrawerDirection.left, drawerWidth: 300)
         

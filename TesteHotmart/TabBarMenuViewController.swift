@@ -10,6 +10,8 @@ import UIKit
 
 class TabBarMenuViewController: UITabBarController {
     
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -20,8 +22,6 @@ class TabBarMenuViewController: UITabBarController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
         switch appDelegate.abrirTela {
         case "HOME":

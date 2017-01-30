@@ -57,7 +57,7 @@ class VendasDashTableViewController: UITableViewController {
         cell.valor.text = venda.valorVenda
         cell.data.text = "id \(venda.idVenda) - \(venda.data)"
         cell.icone?.isHidden = venda.alerta == true ? false : true
-        cell.view.backgroundColor = venda.viewColor == true ? UIColor.white : UIColor.gray
+        cell.view.backgroundColor = venda.viewColor == true ? UIColor.white : UtilColores.ColorCinzaClaro()
         
         return cell
     }

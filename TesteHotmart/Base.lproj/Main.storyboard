@@ -270,7 +270,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre o App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8o-5C-qa2">
                                                     <rect key="frame" x="67" y="17" width="227" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -289,6 +289,19 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="labelAfiliados" destination="h7l-6T-IwI" id="ftd-bD-8J0"/>
+                        <outlet property="labelCountAfiliados" destination="WGG-cb-Xkr" id="wrz-km-ssI"/>
+                        <outlet property="labelCountMensagem" destination="T5R-ZA-XVY" id="hTU-Gj-bcy"/>
+                        <outlet property="labelCountNotificacoes" destination="hPU-Si-ST8" id="qv6-pR-swg"/>
+                        <outlet property="labelDash" destination="ZbO-RI-4Tb" id="7Yr-AG-n5R"/>
+                        <outlet property="labelEmail" destination="Yoq-HT-w1y" id="8nd-Tg-68L"/>
+                        <outlet property="labelMensagem" destination="ovh-ua-g8c" id="gz2-cu-jo1"/>
+                        <outlet property="labelMinhaConta" destination="s3Y-F0-pDi" id="ozP-TF-v4j"/>
+                        <outlet property="labelNome" destination="sHS-Ey-pVP" id="hEs-rn-8iO"/>
+                        <outlet property="labelNotificacoes" destination="ngj-xb-WvC" id="LZv-kX-VKg"/>
+                        <outlet property="labelProdutos" destination="LDJ-ys-ouN" id="5C8-6v-h91"/>
+                        <outlet property="labelSobre" destination="F8o-5C-qa2" id="KcA-Gd-Sj5"/>
+                        <outlet property="labelVendas" destination="MTi-6Z-IGN" id="WcB-Eu-jpZ"/>
                         <outlet property="photo" destination="pRk-dv-fxe" id="ty2-k6-9q2"/>
                     </connections>
                 </tableViewController>
