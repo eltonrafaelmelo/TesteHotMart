@@ -85,7 +85,6 @@
 		B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendasDashTableViewController.swift; sourceTree = "<group>"; };
 		B1A7FB2C1E3F6F240021D8EE /* UtilFontes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilFontes.swift; sourceTree = "<group>"; };
 		B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Storyboard-Swift.h"; sourceTree = SOURCE_ROOT; };
-		B1D642B51E3D5FDE008A2729 /* TesteHotmart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesteHotmart-Bridging-Header.h"; sourceTree = "<group>"; };
 		B70814BF7B33554A202A3A9B /* Pods-TesteHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartTests/Pods-TesteHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4E5B8FDE4DCA04F45D3FE3 /* Pods_TesteHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3127154BF62758FD4734615 /* Pods-TesteHotmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartUITests/Pods-TesteHotmartUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -256,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 				B19D22511E3D2E1800169058 /* TableViewController.swift */,
-				B1D642B51E3D5FDE008A2729 /* TesteHotmart-Bridging-Header.h */,
 				B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */,
 			);
 			name = TableView;
@@ -720,7 +718,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.TesteHotmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TesteHotmart/TesteHotmart-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -738,7 +736,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.TesteHotmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TesteHotmart/TesteHotmart-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

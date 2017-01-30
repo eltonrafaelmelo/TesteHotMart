@@ -25,13 +25,13 @@ class TabBarMenuViewController: UITabBarController {
         
         switch appDelegate.abrirTela {
         case "HOME":
-            self.selectedIndex = 0;
+            self.selectedIndex = 2;
             break
         case "VENDAS":
             self.selectedIndex = 1;
             break
         case "MENSAGENS":
-            self.selectedIndex = 2;
+            self.selectedIndex = 0;
             break
         default:
             break
