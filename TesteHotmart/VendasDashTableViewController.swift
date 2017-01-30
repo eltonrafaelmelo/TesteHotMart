@@ -15,14 +15,11 @@ class VendasDashTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         listaVendas = mockup.listaDeVendas()
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
@@ -46,7 +43,6 @@ class VendasDashTableViewController: UITableViewController {
         cell.descricao.font = UtilFontes.fontTextNormal(tamanho: 15)
         cell.valor.font = UtilFontes.fontTextBold(tamanho: 15)
         cell.data.font = UtilFontes.fontTextNormal(tamanho: 15)
-        
         cell.data.textColor = UtilColores.ColorCinzaEscuro()
         
         cell.descricao.text = venda.descricao
@@ -62,7 +58,5 @@ class VendasDashTableViewController: UITableViewController {
         let venda = listaVendas[index.row] as Vendas
         return venda
     }
- 
-
    
 }

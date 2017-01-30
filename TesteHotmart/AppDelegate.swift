@@ -19,17 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         
-        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarMenuViewController") as! TabBarMenuViewController
-
-        let drawerViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tableViewController") as! TableViewController
+        let viewController = FactoryStoryboard.storyboardMain().instantiateViewController(withIdentifier: "TabBarMenuViewController") as! TabBarMenuViewController
+        
+        let drawerViewController = FactoryStoryboard.storyboardMain().instantiateViewController(withIdentifier: "tableViewController") as! TableViewController
         
         let bounds = UIScreen.main.bounds
         let width = bounds.size.width
-
+        
         drawerController     = KYDrawerController(drawerDirection: KYDrawerController.DrawerDirection.left, drawerWidth: width - 40)
-        
         drawerController.mainViewController = viewController
-        
         drawerController.drawerViewController = drawerViewController
         
         window = UIWindow(frame: UIScreen.main.bounds)

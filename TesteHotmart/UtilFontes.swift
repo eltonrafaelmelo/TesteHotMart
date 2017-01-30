@@ -11,7 +11,6 @@ import UIKit
 class UtilFontes: NSObject {
     
     class func fontTextRegular(tamanho:CGFloat) -> UIFont {
-//        return UIFont(name: "HelveticaNeue-Regular", size: tamanho)!
         return UIFont(name: "Helvetica", size: tamanho)!
     }
     
@@ -22,5 +21,5 @@ class UtilFontes: NSObject {
     class func fontTextBold(tamanho:CGFloat) -> UIFont {
         return UIFont(name: "Helvetica-Bold", size: tamanho)!
     }
-
+    
 }

@@ -26,16 +26,10 @@ class TableViewController: UITableViewController {
     @IBOutlet weak var labelMinhaConta: UILabel!
     @IBOutlet weak var labelSobre: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tratandoFonteLabels()
-        
-        photo.layer.cornerRadius = photo.frame.size.height / 2
-        photo.clipsToBounds = true
-        photo.layer.masksToBounds = true
-
+        tratandoLabels()
+        tratandoImagem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,10 +68,15 @@ class TableViewController: UITableViewController {
         
     }
 
-    // MARK: - Table view data source
+    // MARK: - Configurações
     
-    func tratandoFonteLabels(){
-        
+    func tratandoImagem() {
+        photo.layer.cornerRadius = photo.frame.size.height / 2
+        photo.clipsToBounds = true
+        photo.layer.masksToBounds = true
+    }
+    
+    func tratandoLabels() {
         labelDash.text = "ITEM_DASHBORD".localizedWithComment(comment: "dashbord")
         labelVendas.text = "ITEM_VENDAS".localizedWithComment(comment: "vendas")
         labelProdutos.text = "ITEM_PRODUTOS".localizedWithComment(comment: "produto")
@@ -101,9 +100,5 @@ class TableViewController: UITableViewController {
         labelMinhaConta.font = UtilFontes.fontTextRegular(tamanho: 15)
         labelSobre.font = UtilFontes.fontTextRegular(tamanho: 15)
     }
-
-
-    
-    
 
 }

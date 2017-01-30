@@ -22,5 +22,5 @@ class Mensagem: NSObject {
         self.alerta = alerta
         super.init()
     }
-
+    
 }

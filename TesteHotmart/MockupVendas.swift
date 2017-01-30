@@ -69,5 +69,5 @@ class MockupVendas: NSObject {
         
         return lista
     }
-
+    
 }

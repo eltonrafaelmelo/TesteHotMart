@@ -79,5 +79,5 @@ class MockupMensagens: NSObject {
         
         return lista
     }
-
+    
 }

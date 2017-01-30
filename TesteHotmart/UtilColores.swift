@@ -117,5 +117,5 @@ class UtilColores: NSObject {
         
         return ColorAzul()
     }
-
+    
 }

@@ -23,6 +23,7 @@
 		B14B168F1E3EB99400598ECE /* UtilColores.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B168E1E3EB99400598ECE /* UtilColores.swift */; };
 		B14B16911E3FF8EC00598ECE /* UtilString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B16901E3FF8EC00598ECE /* UtilString.swift */; };
 		B14B16951E3FFA6800598ECE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B14B16971E3FFA6800598ECE /* Localizable.strings */; };
+		B14B169B1E40007100598ECE /* FactoryStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B169A1E40007100598ECE /* FactoryStoryboard.swift */; };
 		B16BC0111E3D1E8600C5F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */; };
 		B16BC0181E3D1E8600C5F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BC0161E3D1E8600C5F02E /* Main.storyboard */; };
 		B16BC01A1E3D1E8600C5F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16BC0191E3D1E8600C5F02E /* Assets.xcassets */; };
@@ -72,6 +73,7 @@
 		B14B16901E3FF8EC00598ECE /* UtilString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilString.swift; sourceTree = "<group>"; };
 		B14B16961E3FFA6800598ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B14B16981E3FFAAF00598ECE /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B14B169A1E40007100598ECE /* FactoryStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryStoryboard.swift; sourceTree = "<group>"; };
 		B16BC00D1E3D1E8600C5F02E /* TesteHotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteHotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B16BC0171E3D1E8600C5F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +91,6 @@
 		B1A7FB281E3F4F430021D8EE /* MensagemDashCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MensagemDashCollectionViewController.swift; sourceTree = "<group>"; };
 		B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendasDashTableViewController.swift; sourceTree = "<group>"; };
 		B1A7FB2C1E3F6F240021D8EE /* UtilFontes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilFontes.swift; sourceTree = "<group>"; };
-		B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Storyboard-Swift.h"; sourceTree = SOURCE_ROOT; };
 		B70814BF7B33554A202A3A9B /* Pods-TesteHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartTests/Pods-TesteHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4E5B8FDE4DCA04F45D3FE3 /* Pods_TesteHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3127154BF62758FD4734615 /* Pods-TesteHotmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteHotmartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteHotmartUITests/Pods-TesteHotmartUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +196,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B14B16991E40000F00598ECE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B16BC0161E3D1E8600C5F02E /* Main.storyboard */,
+				B16BC01B1E3D1E8600C5F02E /* LaunchScreen.storyboard */,
+				B14B169A1E40007100598ECE /* FactoryStoryboard.swift */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
 		B16BC0041E3D1E8500C5F02E = {
 			isa = PBXGroup;
 			children = (
@@ -220,18 +231,15 @@
 		B16BC00F1E3D1E8600C5F02E /* TesteHotmart */ = {
 			isa = PBXGroup;
 			children = (
-				B14B16921E3FF9ED00598ECE /* Supporting Files */,
-				B14B168B1E3EB93100598ECE /* Util */,
-				B14B16801E3E884B00598ECE /* Cell */,
+				B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */,
+				B16BC0191E3D1E8600C5F02E /* Assets.xcassets */,
 				B14B167B1E3E7D7F00598ECE /* Mockup */,
 				B14B16781E3E7C5600598ECE /* Model */,
-				B1D642B31E3D5DF4008A2729 /* Storyboard-Swift.h */,
+				B14B16991E40000F00598ECE /* Storyboard */,
+				B14B16921E3FF9ED00598ECE /* Supporting Files */,
 				B19D22501E3D2DF500169058 /* TableView */,
+				B14B168B1E3EB93100598ECE /* Util */,
 				B19D224F1E3D239600169058 /* ViewControllers */,
-				B16BC0101E3D1E8600C5F02E /* AppDelegate.swift */,
-				B16BC0161E3D1E8600C5F02E /* Main.storyboard */,
-				B16BC0191E3D1E8600C5F02E /* Assets.xcassets */,
-				B16BC01B1E3D1E8600C5F02E /* LaunchScreen.storyboard */,
 			);
 			path = TesteHotmart;
 			sourceTree = "<group>";
@@ -269,6 +277,7 @@
 		B19D22501E3D2DF500169058 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				B14B16801E3E884B00598ECE /* Cell */,
 				B19D22511E3D2E1800169058 /* TableViewController.swift */,
 				B1A7FB2A1E3F51C90021D8EE /* VendasDashTableViewController.swift */,
 			);
@@ -564,6 +573,7 @@
 				B14B168A1E3EAFD800598ECE /* MensagemCollectionViewCell.swift in Sources */,
 				B14B168F1E3EB99400598ECE /* UtilColores.swift in Sources */,
 				B1A7FB2D1E3F6F240021D8EE /* UtilFontes.swift in Sources */,
+				B14B169B1E40007100598ECE /* FactoryStoryboard.swift in Sources */,
 				B14B16881E3EAE5B00598ECE /* MensagensViewController.swift in Sources */,
 				B14B16861E3EA9BF00598ECE /* MockupMensagens.swift in Sources */,
 				B1A7FB2B1E3F51C90021D8EE /* VendasDashTableViewController.swift in Sources */,

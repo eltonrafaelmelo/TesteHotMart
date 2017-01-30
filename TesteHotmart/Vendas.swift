@@ -26,5 +26,5 @@ class Vendas: NSObject {
         self.viewColor = viewColor
         super.init()
     }
-
+    
 }
